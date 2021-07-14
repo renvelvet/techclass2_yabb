@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My Bucket List:</h2>
+
+<ul>
+    <% @items = ["Finish my thesis", "Go to Japan", "Publish my 2nd novel"] %>
+    <% @items.each do |item| %>
+        <%=  %>
+    <% end %> 
+  <li>Finish my thesis</li>
+  <li>Go to Japan</li>
+  <li>Publish my 2nd novel</li>
+  <%= item %>
+</ul>  
+
+<h3>Post New List!</h3>
+
+<form action="/list" method="POST">
+    <label for="item">New list:</label><br>
+    <input type="text" id="item" name="item"><br>
+    <input type="submit" value="Create new list!">    
+</form>
+
+</body>
+</html>
