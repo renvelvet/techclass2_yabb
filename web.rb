@@ -21,8 +21,8 @@ get '/list' do
 end
 
 post '/list' do
+    list = []
     if params['item'] != nil
-        new_item = "<li>#{params['item']}</li>"
         erb :list, locals: {
             item: new_item
         }
