@@ -16,3 +16,7 @@ LEFT JOIN order_details ON orders.id = order_details.order_id
 LEFT JOIN items ON items.id = order_details.item_id
 GROUP BY orders.id;
 ```
+
+Result:
+
+![alt text](https://github.com/renvelvet/techclass2_yabb/blob/master/homework/images/displayed_data.png)
