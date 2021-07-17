@@ -4,4 +4,4 @@ I use this repo to post my class activities and homework from Module 2 as my lea
 
 # Homework's Solution
 ERD:
-(https://github.com/renvelvet/techclass2_yabb/blob/master/homework/images/ERD.png)
+![alt text](https://github.com/renvelvet/techclass2_yabb/blob/master/homework/images/ERD.png)
